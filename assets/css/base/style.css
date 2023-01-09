@@ -1,0 +1,14 @@
+@import url(../base/_variaveis.css);
+@import url(../../css/componentes/1-header/cabecalho.css);
+@import url(../../css/componentes/1-header/chamada.css);
+@import url(../../css/componentes/2-main/conteudo.css);
+
+html,
+body {
+    color: var(--branco)!important;
+    font-family: var(--inter)!important;
+    font-weight: 400px!important;
+    font-size: 1rem;
+
+    height: 100%;
+}

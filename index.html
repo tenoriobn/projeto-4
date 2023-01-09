@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+    <title>ArtJunks</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/base/style.css">
+</head>
+<body>
+    <header class="cabecalho position-relative">
+        <nav class="navbar navbar-expand-lg navbar-mod pt-4 pb-4">
+            <div class="container">
+                <a class="navbar-brand text-uppercase navbar-brand--mod" href="#">ArtJunks</a>
+
+                <button class="navbar-toggler m-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon navbar_toggler__icon-mod"></span>
+                </button>
+                
+                <div class="offcanvas offcanvas-end offcanvas-mod w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header pt-4">
+                        <a class="navbar-brand text-uppercase navbar-brand--mod" href="#">ArtJunks</a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    
+                    <ul class="navbar-nav d-flex align-items-center justify-content-center me-lg-auto mb-2 mb-lg-0 navbar-nav--mod gap-4 gap-lg-2 gap-xl-4">
+                        <li class="nav-item mod-nav--item pt-5 pt-lg-0"><a class="nav-link nav-link--mod active" aria-current="page" href="#">Início</a></li>
+                        <li class="nav-item mod-nav--item"><a class="nav-link nav-link--mod" href="#">Sobre</a></li>
+                        <li class="nav-item mod-nav--item"><a class="nav-link nav-link--mod" href="#">Artistas</a></li>
+                        <li class="nav-item mod-nav--item"><a class="nav-link nav-link--mod" href="#">Carreiras</a></li>
+                        <li class="nav-item mod-nav--item"><a class="nav-link nav-link--mod" href="#">Notícia</a></li>
+                        <li class="nav-item mod-nav--item"><a class="nav-link nav-link--mod" href="#">Companhia</a></li>
+                        <a href="#" class="btn btn-outline-light nav-link--mod btn-mod ms-lg-2 ps-4 pe-4">Iniciar</a>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <section class="container chamada">
+            <div class="position-absolute top-50 translate-middle-y container__chamada">
+                <p class="travessao m-0">—</p>
+                <h2 class="chamada__subtitulo m-0">Obras de arte facilmente acessíveis para todos</h2>
+                <p class="chamada__paragrafo m-0 mt-4">Aprenda, compre e negocie peças de arte de seu artista favorito em todo o mundo usando criptomoedas.</p>
+                <a href="#" class="btn btn-outline-light ms-lg-2 mt-4 ps-4 pe-4 nav-link--mod btn-mod chamada__btn-mod">Saber mais</a>
+            </div>
+        </section>
+    </header>
+
+    <main class="container conteudo">
+        <h2 class="conteudo__subtitulo m-0">Leituras mais recentes</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 container__card">
+            <article class="col">
+                <figure class="card">
+                    <img src="assets/img/icon/card-france.svg" class="card-img-top" alt="...">
+
+                    <div class="card-body card__body">
+                        <p class="card__data m-0">5 de Agosto, 2022</p>
+                        <h5 class="card__titulo m-0">França procura proteger a coleção de Morozov da Rússia da apreensão</h5>
+                    </div>
+
+                    <a href="#" class="card__mais-info text-decoration-none text-end">Consulte mais informação -></a>
+                </figure>
+            </article>
+
+            <article class="col">
+                <figure class="card">
+                    <img src="assets/img/icon/card-picasso.svg" class="card-img-top" alt="...">
+
+                    <div class="card-body card__body">
+                        <p class="card__data m-0">5 de Agosto, 2022</p>
+                        <h5 class="card__titulo m-0">A musa de Picasso como criatura marinha – vai quebrar US$ 100 milhões</h5>
+                    </div>
+                    
+                    <a href="#" class="card__mais-info text-decoration-none text-end">Consulte mais informação -></a>
+                </figure>
+            </article>
+
+            <article class="col">
+                <figure class="card">
+                    <img src="assets/img/icon/card-venice.svg" class="card-img-top" alt="...">
+
+                    <div class="card-body card__body">
+                        <p class="card__data m-0">5 de Agosto, 2022</p>
+                        <h5 class="card__titulo m-0">A Bienal de Veneza 2022: todos os pavilhões - artistas e curadores</h5>
+                    </div>
+
+                    <div class="espacamento-card">
+                        <br>
+                    </div>
+                    
+                    <a href="#" class="card__mais-info text-decoration-none text-end">Consulte mais informação -></a>
+                </figure>
+            </article>
+        </div>
+    </main>
+
+    <footer class="rodape">
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>

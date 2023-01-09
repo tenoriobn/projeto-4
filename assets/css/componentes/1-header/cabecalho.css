@@ -1,0 +1,84 @@
+header {
+    background-image: url(../../../img/banner/background-header.svg);
+	background-position: top center;
+	background-size: cover;
+	height: 100%;
+}
+
+.navbar-brand--mod {
+    color: var(--branco);
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 2.2994rem;
+}
+
+.navbar-brand--mod:hover {
+    color: var(--cinza)!important;
+}
+
+.navbar-brand--mod:focus {
+    color: var(--cinza)!important;
+}
+
+.navbar-toggler {
+    border: none!important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none!important;
+}
+
+.navbar_toggler__icon-mod {
+    background-image: url(../../../img/icon/hamburger-Menu.svg)!important;
+}
+
+.offcanvas-mod {
+    background-image: url(../../../img/banner/background-header.svg);
+	background-position: top center;
+	background-size: cover;
+	height: 100%;
+}
+
+.nav-link--mod {
+    color: var(--branco)!important;
+    font-family: var(--inter)!important;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.3613rem;
+}
+
+.nav-link--mod:hover {
+    color: var(--azul-escuro)!important;
+    font-size: 1.205rem;
+    transition: .1s;
+}
+
+.btn-mod {
+    border: 2px solid;
+}
+
+.btn-mod:hover {
+    background-color: transparent!important;
+    border: 2px solid var(--azul-escuro)!important;
+    color: var(--azul-escuro)!important;
+
+    font-size: 1.138rem!important;
+    transition: .2s;
+}
+
+.chamada__btn-mod:hover  {
+    border: 2px solid var(--laranja)!important;
+    color: var(--laranja)!important;
+}
+
+@media screen and (min-width: 992px) {
+    .offcanvas-mod {
+        background-image: none!important;
+    }
+
+    .navbar-nav--mod {
+        margin-right: 0px!important;
+        margin-left: auto!important;
+        float:left!important;
+    }
+}

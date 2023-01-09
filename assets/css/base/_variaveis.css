@@ -1,0 +1,13 @@
+:root {
+    /* Cores */
+    --azul-escuro: #1c1f22;
+    --bege: #a7988b;
+    --branco: #ffffff;
+    --cinza: #B7B7B7;
+    --laranja: #D9852C;
+    --preto: #000000;
+
+    /* Fontes */
+    --inter: 'Inter', sans-serif;
+    --libre: 'Libre Caslon Display', serif;
+}
